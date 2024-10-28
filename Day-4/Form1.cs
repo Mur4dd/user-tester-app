@@ -30,6 +30,10 @@ namespace Day_4
             {
                 errorProvider1.SetError(passTextBox , "Password is nothing");
             }
+            else
+            {
+                errorProvider1.Clear();
+            }
 
 
             if (username != string.Empty || password != string.Empty)
